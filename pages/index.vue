@@ -11,7 +11,7 @@
         </v-card-title>
         <v-card-text>
           <p>
-            Lets try
+            New Feature
           </p>
           <p>
             For more information on Vuetify, check out the
