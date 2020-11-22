@@ -7,7 +7,7 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to Vue Docker Container
+          Welcome to Vue Docker Container art of the work
         </v-card-title>
         <v-card-text>
           <p>
