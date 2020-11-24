@@ -16,4 +16,4 @@ deploy:
     secure: $SECRET_ACCESS_KEY
    bucket_bath: "frontend"
    on:
-    branch: master
+    branch: main
