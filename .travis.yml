@@ -8,10 +8,9 @@ script:
 deploy:
  - provider: elasticbeanstalk
    region: "us-east-1"
-   app: "frontend"
-   env: "Frontend-env"
-   bucket_name: "elasticbeanstalk-us-east-1-671068009085"
-   bucket_bath: "frontend"
+   app: "frontend-app"
+   env: "Frontendapp-env"
+   bucket: "pnp-frontend-app"
    access_key_id: "${ACCESS_KEY_ID}"
    secret_access_key: "${SECRET_ACCESS_KEY}"
    on:
