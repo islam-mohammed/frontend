@@ -60,7 +60,6 @@
           >
             Nuxt Documentation
           </a>
-          <br />
           <a
             href="https://github.com/nuxt/nuxt.js"
             target="_blank"
