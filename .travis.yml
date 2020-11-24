@@ -10,7 +10,7 @@ deploy:
    region: "us-east-1"
    app: "frontend-app"
    env: "Frontendapp-env"
-   bucket_name: "pnp-frontend-app"
+   bucket_name: "elasticbeanstalk-us-east-1-671068009085"
    bucket_bath: "frontend-app"
    access_key_id: "${ACCESS_KEY_ID}"
    secret_access_key: "${SECRET_ACCESS_KEY}"
