@@ -6,14 +6,13 @@ before_install:
 script:
   - docker run islam-mohammed/frontend npm run test
 deploy:
-   provider: elasticbeanstalk
+ - provider: elasticbeanstalk
    region: "us-east-1"
    app: "frontend"
    env: "Frontend-env"
    bucket_name: "elasticbeanstalk-us-east-1-671068009085"
-   access_key_id: $ACCESS_KEY_ID
-   secret_access_key:
-    secure: "$SECRET_ACCESS_KEY"
    bucket_bath: "frontend"
+   access_key_id: "${ACCESS_KEY_ID}"
+   secret_access_key: "${SECRET_ACCESS_KEY}"
    on:
     branch: main

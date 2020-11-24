@@ -5,5 +5,6 @@ RUN npm install
 COPY . .
 RUN npm run generate
 FROM nginx
+EXPOSE 80
 COPY --from=builder /apps/frontend/dist /usr/share/nginx/html
 
